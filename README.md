@@ -1,10 +1,10 @@
-# 📚 Wikipedia RAG Chatbot
+# Wikipedia RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers questions from any Wikipedia article using **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Groq LLM** — with a clean **Gradio** chat interface.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ```
 Wikipedia Article
@@ -30,7 +30,7 @@ Wikipedia Article
 
 ---
 
-## 🚀 Quick Start (Google Colab)
+## Quick Start (Google Colab)
 
 1. Open [Google Colab](https://colab.research.google.com)
 2. Open `wikipedia_rag_chatbot.py`
@@ -40,11 +40,11 @@ Wikipedia Article
 6. Enter any Wikipedia topic when prompted (e.g. `Diabetes`, `Black hole`)
 7. Chat with the bot in the Gradio UI
 
-> ⚠️ Each `%%writefile` cell must be in its **own Colab cell** — do not merge them.
+>  Each `%%writefile` cell must be in its **own Colab cell** — do not merge them.
 
 ---
 
-## 🔑 Get a Free Groq API Key
+##  Get a Free Groq API Key
 
 1. Go to [console.groq.com](https://console.groq.com)
 2. Sign up for free
@@ -53,7 +53,7 @@ Wikipedia Article
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 wikipedia-rag-agent/
@@ -72,7 +72,7 @@ wikipedia-rag-agent/
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Any Wikipedia topic** — not hardcoded, user picks at runtime
 - **Smart router** — detects vague questions and asks for clarification
@@ -83,7 +83,7 @@ wikipedia-rag-agent/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Library |
 |-----------|---------|
@@ -96,7 +96,7 @@ wikipedia-rag-agent/
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 langchain
